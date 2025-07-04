@@ -8,6 +8,6 @@ namespace Penu.Domain.Entities
         public string Surname { get; set; } = default!;
         public string Email { get; set; } = default!;
         public string PasswordHash { get; set; } = default!;
-        public ICollection<Role> Roles { get; set; } = new List<Role>();
+        public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
     }
 }

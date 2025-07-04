@@ -8,7 +8,7 @@ namespace Penu.Domain.Entities
         public string Code { get; set; } = default!;
         public string Description { get; set; } = default!;
 
-        public ICollection<Role> Roles { get; set; } = new List<Role>();
+        public ICollection<RolePermission> RolePermissions { get; set; } = new List<RolePermission>();
 
     }
 }

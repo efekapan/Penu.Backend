@@ -6,7 +6,7 @@ namespace Penu.Domain.Entities
     {
         public string Name { get; set; } = default!;
         public string Description { get; set; } = default!;
-        public ICollection<Permission> Permissions { get; set; } = new List<Permission>();
-        public ICollection<User> Users { get; set; } = new List<User>();
+        public ICollection<RolePermission> RolePermissions { get; set; } = new List<RolePermission>();
+        public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
     }
 }
