@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Penu.Domain.Entities;
+using System.Reflection;
 
 namespace Penu.Persistence.Context
 {
@@ -24,7 +25,7 @@ namespace Penu.Persistence.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }
