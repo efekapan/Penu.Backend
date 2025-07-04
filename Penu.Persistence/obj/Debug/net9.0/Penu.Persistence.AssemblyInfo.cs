@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Penu.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52843b7864ad30851dc7b7e9c16f2e9fbde34891")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29175f0fc590d61b54d864cf2ff8adaf91786273")]
 [assembly: System.Reflection.AssemblyProductAttribute("Penu.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Penu.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
