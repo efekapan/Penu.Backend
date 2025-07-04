@@ -1,45 +1,134 @@
+##############
+# Derleme çıktıları
+##############
 bin/
 obj/
+out/
+Debug/
+Release/
+Generated/
 
+##############
+# Visual Studio ile ilgili
+##############
+.vs/
+*.suo
 *.user
 *.userosscache
-*.suo
 *.sln.docstates
+*.VC.db
+*.VC.VC.opendb
 
-.vs/
+# Copilot Indices (Visual Studio 2022 özel)
+.vs/**/CopilotIndices/
+.vs/**/SemanticSymbols.db*
+.vs/**/CodeChunks.db*
 
+##############
+# Visual Studio Code
+##############
+.vscode/
+.history/
+*.code-workspace
+
+##############
+# JetBrains Rider / ReSharper
+##############
 .idea/
-
+*.sln.iml
+.ReSharper/
 _ReSharper*/
-*.[Rr]e[Ss]harper
+*.DotSettings.user
 
-.DS_Store
-Thumbs.db
-
-node_modules/
-
+##############
+# ASP.NET Core / .NET Genel
+##############
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+*.dbmdl
+*.pdb
+*.mdb
+*.cache
 *.log
 
-publish/
+##############
+# Kullanıcıya özel config/secrets
+##############
+secrets.json
+*.pfx
+*.key
+*.cer
+*.snk
+*.publishsettings
+appsettings.Development.json
+appsettings.Local.json
 
+##############
+# EF Core ve DB
+##############
+Migrations/
+*.sqlite
+*.mdf
+*.ldf
+*.db
+
+##############
+# Paket dosyaları
+##############
 *.nupkg
 *.snupkg
+.nuget/
 packages/
+*.vsix
 
-ScaffoldingReadMe.txt
-
-*.Snapshot.cs
-
-secrets.json
-
-.idea/
-
-.dotnet/
-
+##############
+# Test sonuçları
+##############
 TestResults/
+*.coverage
+*.coveragexml
+*.nunit.xml
+*.trx
+*.lcov
 
-azure-pipelines.yml
+##############
+# Log dosyaları
+##############
+*.log
+logs/
+log/
 
-*.vspscc
-*.vssscc
+##############
+# Sistem dosyaları
+##############
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.bak
+*.tmp
+*.temp
 
+##############
+# Yedek dosyalar
+##############
+*.orig
+*.rej
+*.swp
+*.swn
+*.swo
+
+##############
+# Publish klasörü
+##############
+publish/
+dist/
+wwwroot/
+node_modules/
+
+##############
+# Git ignore helper
+##############
+!*.gitignore
