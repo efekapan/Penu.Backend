@@ -1,1 +1,63 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio cache files
 .vs/
+
+# Rider IDE
+.idea/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Npm packages (if any)
+node_modules/
+
+# Logs
+*.log
+
+# Publish output
+publish/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework Core Migrations snapshot
+*.Snapshot.cs
+
+# User secrets (if used)
+secrets.json
+
+# JetBrains Rider
+.idea/
+
+# Dotnet watch files
+.dotnet/
+
+# Test results
+TestResults/
+
+# Azure Pipelines
+azure-pipelines.yml
+
+# Others
+*.vspscc
+*.vssscc
+
