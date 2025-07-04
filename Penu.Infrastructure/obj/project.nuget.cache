@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "E2MNmraoagM=",
+  "dgSpecHash": "2y9gT+PszEI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Pc\\Documents\\GitHub\\Penu.Backend\\Penu.Infrastructure\\Penu.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512"
+  ],
   "logs": []
 }

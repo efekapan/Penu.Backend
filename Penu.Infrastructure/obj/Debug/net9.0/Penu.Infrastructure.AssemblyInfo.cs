@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Penu.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29175f0fc590d61b54d864cf2ff8adaf91786273")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f94a058addf6013b5d4d735d3dd384d4e841a7e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Penu.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Penu.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
