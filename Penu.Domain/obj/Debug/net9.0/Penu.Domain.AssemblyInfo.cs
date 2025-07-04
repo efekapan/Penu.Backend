@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Penu.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aea530627f4d98a9861dfabf34ec7b0b54799baf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b5be893f1c82e9bef5697792ef963333bc8bd26")]
 [assembly: System.Reflection.AssemblyProductAttribute("Penu.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Penu.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
