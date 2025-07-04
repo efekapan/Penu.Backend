@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hfuMINUVMKF1amMSlGjxNoj2zTwhpiCTfVnh2f2QyaY=",
+  "Source": "Penu.WebAPI",
+  "BasePath": "_content/Penu.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

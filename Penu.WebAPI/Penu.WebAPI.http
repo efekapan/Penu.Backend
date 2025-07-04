@@ -1,0 +1,6 @@
+@Penu.WebAPI_HostAddress = http://localhost:5227
+
+GET {{Penu.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
